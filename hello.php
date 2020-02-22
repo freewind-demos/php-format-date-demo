@@ -1,12 +1,9 @@
-<?= 'Hello, Php' ?>
-
 <?php
-echo('aaa\n');
-print("bbb\n");
 
-$xx = array(
-  'aa' => '11',
-  'bb' => '22'
-);
-print_r($xx);
+echo date('Y-m-d H:i:s');
+echo "\n";
+echo date('F Y');
+echo "\n";
+echo date('M Y');
+echo "\n";
 ?>
